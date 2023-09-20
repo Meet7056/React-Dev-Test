@@ -50,7 +50,7 @@ function ModalScreen() {
 
     const filteredItems = initialItems.filter((item) => {
       return (
-        item.first_name.toLowerCase().includes(searchTerm) || // Use correct property names
+        item.first_name.toLowerCase().includes(searchTerm) ||
         item.phone_number.includes(searchTerm) ||  // Use correct property names
         item.country_id.toString().includes(searchTerm) // Use correct property names and convert to string
       );

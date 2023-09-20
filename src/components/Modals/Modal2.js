@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 
 function ModalScreen() {
-  // show modal using this boolean
+  // show modal using this boolean    
   const showModal = true;
 
   // function to navigate a page to another page

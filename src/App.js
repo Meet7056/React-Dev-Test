@@ -11,7 +11,7 @@ import NoPage from "./components/Nopage";
 
 export default function App() {
 
-  // routers to change the url of modals
+  // routers to change the url of modals   
   return (
     <BrowserRouter>
       <Routes>
@@ -24,5 +24,5 @@ export default function App() {
   );
 }
 
-const root = document.getElementById('root');
+const root = document.getElementById('root')
 ReactDOM.render(<App />, root);
